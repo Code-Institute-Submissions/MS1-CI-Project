@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+/*---------------------------------------------Colours */
+body{
+    background-color: black;
+}
+
+h2{
+    color: #fafafa;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+.nav-link{
+    color: #fafafa;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family: 'Cabin', sans-serif;
+   
+    
+}
+p{
+    color: #fafafa;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+/*---------------------------------------------Margins/paddings etc */
+
+/*---------------------------------------------Headings */
+/*---------------------------------------------Footer */
+/*---------------------------------------------Colours */
+/*--------------------------------------------Contact Form */
+/*--------------------------------------------Media Queries */
