@@ -16,9 +16,13 @@ h2{
 }
 
 .scroll{
-    background-image: url("grad.JPG");
+    background-image: url("/assets/image/grad.JPG") ;
     background-size: cover;
-    
+    background-attachment: fixed;
+}
+
+.card-overlay{
+    background: rgba(0, 0, 0, 0.5);
 }
 
 
