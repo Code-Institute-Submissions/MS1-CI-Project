@@ -5,6 +5,7 @@
 /*---------------------------------------------Colours */
 body{
     background-color: black;
+    
 }
 
 h2{
@@ -14,10 +15,30 @@ h2{
     font-family: 'Cabin', sans-serif;
 }
 
+.scroll{
+    background-image: url("grad.JPG");
+    background-size: cover;
+    
+}
 
+
+/*---------------------------------------------Margins/paddings etc */
+
+.container{
+    margin: 0 auto;
+    flex: 1;
+}
+
+/*---------------------------------------------Headings */
+
+header {
+    padding-bottom: 50px;
+}
 
 .nav-link{
     color: #fafafa;
+    display: inline-block;
+    vertical-align: middle;
     margin-right: 25px;
     font-size: 15px;
     font-family: 'Cabin', sans-serif;
@@ -30,10 +51,17 @@ p{
     margin-top: 100px;
     margin-left: 70px;
 }
-/*---------------------------------------------Margins/paddings etc */
 
-/*---------------------------------------------Headings */
 /*---------------------------------------------Footer */
-/*---------------------------------------------Colours */
+
+footer {
+    left:0;
+    bottom: 0;
+    margin-left: 70px;
+
+}
+
+
+
 /*--------------------------------------------Contact Form */
 /*--------------------------------------------Media Queries */
