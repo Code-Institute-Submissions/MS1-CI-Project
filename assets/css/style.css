@@ -40,19 +40,12 @@ h2{
     position: absolute;
 }
 
-.card{
-    display: inline-block;
-    border: 5px;
-    border-style: solid;
-    border-color:#aabdd0;
-    width: 400px;
-    height: 500px;
-    margin: 20px ;
-    padding: 15px;
-}
-
-.btn-primary{
-    color: #aabdd0 ;
+.scroll-inner li {
+    color: #fafafa;
+    text-align: center;
+    list-style: none;
+    font-family: 'Cabin',sans-serif;
+    font-size: 20px;
 }
 
 /*---------------------------------------------Headings */
@@ -73,7 +66,7 @@ header {
 }
 .container p{
     color: #fafafa;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 100px;
     margin-left: 70px;
 }
@@ -119,7 +112,18 @@ footer {
     margin-top: 30px;
 }
 
-/*--------------------------------------------projects */
+/*--------------------------------------------Projects */
+
+.card{
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+    border-color:#aabdd0;
+    width: 400px;
+    height: 500px;
+    margin: 20px ;
+    padding: 15px;
+}
 
 .card-img-top{
     height: 200px;
@@ -128,9 +132,22 @@ footer {
 }
 .btn-primary{
     background-color: #fafafa;
-    align-content: center;
     color: #aabdd0 ;
 }
+
+/*--------------------------------------------Skills */
+.progress-type{
+    font-weight: 200px;
+    font-family: 'Cabin',sans-serif;
+    color: #fafafa;
+}
+
+.progress{
+    margin: 20px 20px;
+
+}
+
+
 
 
 /*--------------------------------------------Contact Form */
@@ -157,3 +174,15 @@ button[type=submit] {
     font-family: 'Cabin', sans-serif;
 }
 /*--------------------------------------------Media Queries */
+@media (max-width: 600px) {
+
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+    
+}
