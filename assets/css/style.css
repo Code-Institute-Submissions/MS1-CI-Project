@@ -53,11 +53,12 @@ h2{
 header {
     padding-bottom: 50px;
 }
+.navbar{
+    background-color: black;
+}
 
 .nav-link{
     color: #fafafa;
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 25px;
     font-size: 15px;
     font-family: 'Cabin', sans-serif;
@@ -115,14 +116,21 @@ footer {
 /*--------------------------------------------Projects */
 
 .card{
-    display: inline-block;
+    float: left;
+    justify-content: center;
     border: 5px;
     border-style: solid;
     border-color:#aabdd0;
     width: 400px;
-    height: 500px;
-    margin: 20px ;
-    padding: 15px;
+    height: calc(100vh / 1.5);
+    margin: 25px ;
+    padding: 15px 15px 15px 20px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+
+.card:hover{
+    background: #aabdd0;
 }
 
 .card-img-top{
@@ -175,6 +183,7 @@ button[type=submit] {
 }
 /*--------------------------------------------Media Queries */
 @media (max-width: 600px) {
+
 
 }
 @media only screen and (min-width: 600px) {
