@@ -62,14 +62,27 @@ header {
     margin-right: 25px;
     font-size: 15px;
     font-family: 'Cabin', sans-serif;
-   
-    
 }
-.container p{
+
+.collapse,
+.navbar-toggler {
+    float: right;
+}
+
+button[type=button] {
+    color: #fafafa;
+    float: right;
+    margin-right: 15px;
+    background-color: #aabdd0 ;
+}
+
+.container p {
     color: #fafafa;
     font-size: 30px;
+    font-family: 'Cabin',sans-serif;
     margin-top: 100px;
-    margin-left: 70px;
+    margin-left: 70px ;
+    
 }
 .scroll-inner p{
     color: #fafafa;
