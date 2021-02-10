@@ -8,10 +8,12 @@ body{
     height: 100vh;
 }
 
+.name,
 h2{
     color: #fafafa;
     margin-top: 50px;
     margin-left: 70px;
+   overflow: auto;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -66,15 +68,15 @@ header {
 
 .collapse,
 .navbar-toggler {
-    float: right;
+    margin-left: auto;
 }
 
 button[type=button] {
     color: #fafafa;
-    float: right;
     margin-right: 15px;
     background-color: #aabdd0 ;
 }
+
 
 .container p {
     color: #fafafa;
@@ -105,10 +107,11 @@ h3{
 /*---------------------------------------------Footer */
 
 footer {
-    height: 50px;
+    min-height: 1.5em;
     position: sticky;
     bottom: 0;
-    padding-bottom: 15px;
+    overflow: scroll;
+    
 }
 .footer-heading{
     font-family: 'Cabin', sans-serif;
@@ -122,7 +125,7 @@ footer {
 }
 
 .fixed-bottom{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     margin-top: 30px;
 }
 
