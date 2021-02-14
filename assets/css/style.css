@@ -5,8 +5,10 @@
 /*---------------------------------------------Colours */
 body{
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden ;
+    padding-bottom: 50px;
+    
 }
 
 .name,
@@ -18,7 +20,7 @@ h2{
 }
 
 .scroll{
-    background-image: url("/assets/image/grad.JPG") ;
+    background-image: url("/workspace/MS1-CI-Project/assets/image/grad.JPG") ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -114,8 +116,8 @@ h3{
 /*---------------------------------------------Footer */
 
 footer {
-    height: 50px;
-    padding-bottom: 20px;
+
+    margin:0;
     
     
 }
@@ -131,6 +133,7 @@ footer {
 
 .container-fluid p {
     color: #aabdd0;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Cabin', sans-serif;
 }
