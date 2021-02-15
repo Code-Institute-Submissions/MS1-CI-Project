@@ -116,7 +116,6 @@ h3{
 /*---------------------------------------------Footer */
 
 footer {
-
     margin:0;
     
     
@@ -231,13 +230,58 @@ button[type=submit] {
 }
 /*--------------------------------------------Media Queries */
 @media (max-width: 600px) {
+body{
+    overflow: auto;
+}
+    .container p{
+    text-align: center;
+    margin: 10px;
+}
+.scroll-inner p{
+    font-size: small;
+    margin: 15px;
+}
+.scroll-inner li{
+    font-size: small;
+    margin: 15px;
+    text-align: center;
+}
+.progress-type{
+    font-size: small;
+}
+footer{
+    height: 50px;
+}
+.fixed-bottom{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030
+}
+.card-text{
+    font-size: small;
+}
 
+.contact-heading{
+    text-align: center;
+    margin-right: 35px;
+}
+
+.container-fluid p{
+    margin-right: 10px;
+}
+.container-fluid-section{
+    padding-bottom: 30px;
+}
 
 }
-@media only screen and (min-width: 600px) {
 
-}
+
 @media only screen and (min-width: 768px) {
+  
+    
+
 
 }
 @media only screen and (min-width: 992px) {
