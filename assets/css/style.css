@@ -20,7 +20,7 @@ h2{
 }
 
 .scroll{
-    background-image: url("/workspace/MS1-CI-Project/assets/image/grad.JPG") ;
+    background-image: url("../workspace/MS1-CI-Project/assets/image/grad.JPG") ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -184,7 +184,7 @@ footer {
 
 /*--------------------------------------------Skills */
 .progress-type{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 15px;
     font-family: 'Cabin',sans-serif;
     text-transform: uppercase;
@@ -278,12 +278,3 @@ footer{
 }
 
 
-@media only screen and (min-width: 768px) {
-  
-    
-
-
-}
-@media only screen and (min-width: 992px) {
-    
-}
